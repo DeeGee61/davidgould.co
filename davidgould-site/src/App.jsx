@@ -1,3 +1,24 @@
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+import Home from "./pages/Home";
+
+export default function App() {
+  return (
+    <div
+      style={{
+        background: "#0f172a",
+        color: "#e2e8f0",
+        minHeight: "100vh",
+        fontFamily: "Arial, sans-serif",
+      }}
+    >
+      <Navbar />
+      <Home />
+      <Footer />
+    </div>
+  );
+}
+
 export default function App() {
   return (
     <div
